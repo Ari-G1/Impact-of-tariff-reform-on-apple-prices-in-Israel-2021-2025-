@@ -22,18 +22,18 @@ In 2022–2023, Israel's Ministry of Agriculture reduced customs tariffs on appl
 
 ## Repository Structure
 
-```
 ├── data/
-│   ├── Retail.csv          # Monthly average consumer price (₪/kg), 2021–2025
-│   └── IMPORT.csv          # Monthly import volume (tons) and value (NIS) by country
+│   ├── Retail.csv              # Monthly average consumer price (₪/kg), 2021–2025
+│   └── IMPORT.csv              # Monthly import volume (tons) and value (NIS) by country
 ├── queries/
-│   ├── q1.sql              # Monthly aggregation of import and retail price data
-│   └── q2.sql              # Extends q1 with tariff-adjusted import price
+│   ├── q1.sql                  # Monthly aggregation of import and retail price data
+│   └── q2.sql                  # Extends q1 with tariff-adjusted import price
 ├── analysis/
 │   └── Apple_Import_Analysis.pdf
-└── notebooks/
-    └── analysis.ipynb
-```
+├── notebooks/
+│   └── analysis.ipynb
+├── README.md
+└── requirements.txt
 
 ## Requirements
 
