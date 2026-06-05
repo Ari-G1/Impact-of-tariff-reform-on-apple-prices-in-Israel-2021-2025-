@@ -1,10 +1,10 @@
 # Impact of Tariff Reform on Apple Prices and Import Structure in Israel (2021–2025)
 
-A short report analysing the effects of reducing tariffs on apple imports on consumer prices in Israel (2021–2025).
+A short report analyzing the effects of reducing tariffs on apple imports on consumer prices in Israel (2021–2025).
 
 ## Overview
 
-In 2022–2023, Israel's Ministry of Agriculture reduced customs tariffs on apple imports as part of the "Agriculture Reform". This project analyses the impact of these reductions on import volumes, consumer prices, and import structure using monthly data from 2021–2025.
+In 2022–2023, Israel's Ministry of Agriculture reduced customs tariffs on apple imports as part of the "Agriculture Reform". This project analyzes the impact of these reductions on import volumes, consumer prices, and import structure using monthly data from 2021–2025.
 
 **Tariff history:**
 | Period | Tariff (₪/kg) |
@@ -22,28 +22,18 @@ In 2022–2023, Israel's Ministry of Agriculture reduced customs tariffs on appl
 
 ## Repository Structure
 
-├── data/
+├── Data/
 │   ├── Retail.csv              # Monthly average consumer price (₪/kg), 2021–2025
 │   └── IMPORT.csv              # Monthly import volume (tons) and value (NIS) by country
 ├── queries/
 │   ├── q1.sql                  # Monthly aggregation of import and retail price data
 │   └── q2.sql                  # Extends q1 with tariff-adjusted import price
 ├── analysis/
-│   └── Apple_Import_Analysis.pdf
-├── notebooks/
+│   └── Apple_Import_analysis.pdf # A hebrew report summarizing the findings
+├── Notebooks/
 │   └── analysis.ipynb
 ├── README.md
-└── requirements.txt
-
-## Requirements
-
-```
-pandas
-matplotlib
-numpy
-```
-
-SQLite is part of Python's standard library — no additional installation needed.
+└── Requirements.txt
 
 ## Usage
 
