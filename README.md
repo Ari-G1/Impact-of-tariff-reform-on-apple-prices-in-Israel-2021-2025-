@@ -30,7 +30,7 @@ In 2022–2023, Israel's Ministry of Agriculture reduced customs tariffs on appl
 │   ├── q1.sql              # Monthly aggregation of import and retail price data
 │   └── q2.sql              # Extends q1 with tariff-adjusted import price
 ├── analysis/
-│   └── Apple_Import_Analysis.docx
+│   └── Apple_Import_Analysis.pdf 
 └── notebooks/
     └── analysis.ipynb
 ```
